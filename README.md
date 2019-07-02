@@ -2,7 +2,7 @@
 web service to scrape news items from BBC
 
 To run:
-git clone
-python -m venv env
-pip install -r requirements.txt
-python manage.py runserver
+1. git clone
+2. python -m venv env
+3. pip install -r requirements.txt
+4. python manage.py runserver

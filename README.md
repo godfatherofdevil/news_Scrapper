@@ -9,10 +9,15 @@ chapter : the section from where you want the results,
 news: number of top news that you want
 
 
-To run:
+To run locally:
 1. git clone
 2. python -m venv env
 3. pip install -r requirements.txt
 4. python manage.py runserver
 
-or go to : https://radiant-depths-22682.herokuapp.com/
+or make a get request to :  
+https://radiant-depths-22682.herokuapp.com/
+
+example :
+GET https://radiant-depths-22682.herokuapp.com/?chapter=sport&news=10
+This will return top ten sports news from https://bbc.com

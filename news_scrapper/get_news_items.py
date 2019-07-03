@@ -61,7 +61,6 @@ def make_url(url):
     """
     utility function to make full url from relative url
     """
-    for base_url in ALL_BBC_BASE_URL:
-        if base_url in url:
-            return url
+    if "http" in url:
+        return url
     return BBC_BASE_URL + url

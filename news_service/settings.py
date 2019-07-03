@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = ')mp54!y&ir53%725p5hu)w3s$x-7kmi6pw5j&0@s#ch+9wo(j#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['radiant-depths-22682.herokuapp.com']
 
